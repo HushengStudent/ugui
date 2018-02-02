@@ -8,6 +8,8 @@ namespace UnityEngine.UI
         protected Outline()
         {}
 
+        //把原来的顶点Copy出来一份,并且根据编辑器中设置的偏移量来设置Copy出来的顶点的位置;
+        //Outline会有额外的性能消耗;
         public override void ModifyMesh(VertexHelper vh)
         {
             if (!IsActive())
