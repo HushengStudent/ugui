@@ -3,6 +3,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.Rendering;
 using UnityEngine.Serialization;
 
+//Mask是利用了GPU的模板缓冲来实现的;
 namespace UnityEngine.UI
 {
     [AddComponentMenu("UI/Mask", 13)]
